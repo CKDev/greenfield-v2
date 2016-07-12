@@ -15,6 +15,31 @@ gem "redis", "~> 3.0"
 gem "devise"
 # gem "rolify"
 
+# Background processing
+# gem "sidekiq"
+# gem "sinatra", require: nil # For the Sidekiq web interface
+# gem "sidekiq-failures"
+
+# Reporting tools
+# gem "rollbar"
+# gem "skylight"
+
+# File uploads to S3
+# gem "carrierwave"
+# gem "fog-aws"
+# gem "mini_magick"
+# gem "file_validators" # For image validation
+
+# Misc
+gem "local_time" # Client-side timezone rendering
+# gem "geocoder" # Convert addresses into lat/long
+# gem "whenever", require: false # Cron scheduling
+# gem "paper_trail" # Model auditing
+gem "colorize"
+
+# Pagination
+gem "will_paginate"
+
 group :development, :test do
   gem "pry"
   gem "pry-byebug"

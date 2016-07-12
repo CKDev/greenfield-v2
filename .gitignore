@@ -33,3 +33,6 @@ bower.json
 
 # Ignore the mac .DS_Store file
 *.DS_Store
+
+# Sublime files
+*.sublime-*
