@@ -11,6 +11,10 @@ gem "jquery-rails"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 3.0"
 
+# Authentication and authorization
+gem "devise"
+# gem "rolify"
+
 group :development, :test do
   gem "pry"
   gem "pry-byebug"
