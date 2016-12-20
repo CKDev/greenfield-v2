@@ -19,10 +19,10 @@ that we don't need to discuss each choice that has been made in the past.
 # Running Greenfield Locally
 
 ## Ruby Version
-2.3.1
+2.3.3
 
 ## Rails Version
-4.2.6
+5.0.0.1
 
 ## System dependencies
 * Redis
