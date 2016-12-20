@@ -7,10 +7,12 @@ that we don't need to discuss each choice that has been made in the past.
 ## Starting a new project using this template
 
 * Clone this project from Github
-  - git clone https://github.com/CKDev/greenfield-v2.git
+  - git clone git@github.com:CKDev/greenfield-v2.git
 * Create a new gemset with 'rvm gemset create <project name>'
 * Change .ruby-gemset for new project name
 * Run `bundle install`
+* Copy secrets.yml.example to secrets.yml.
+* Create a new secret_key_base, one for development and one for test with `rake secret` and put in the secrets.yml file.
 * Configure Redis - TODO:
 * Configure Sidekiq - TODO:
 
