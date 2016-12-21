@@ -1,9 +1,9 @@
 require "rails_helper"
 
-describe HomeController do
+describe StyleguideController do
 
-  it "should show the homepage" do
-    get :index
+  it "should show" do
+    get :show
     expect(response).to have_http_status(:success)
   end
 

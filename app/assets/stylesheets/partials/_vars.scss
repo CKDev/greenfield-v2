@@ -1,34 +1,30 @@
+
 $pale-grey: #efefef;
 $light-grey: #ddd;
 $medium-grey: #aaa;
+$grey: #404040;
 $dark-grey: #666;
 $black: #000;
 
-/* --- Brand Colors --- */
-
 $white: #FFFFFF;
-$grey: #404040;
 $green: #599700;
-$primary-beige: #eed9ba;
-$light-beige: #f8f0e3;
-$dark-beige: #ddb376;
-$dark-blue: #38697A;
-$blue: #549ab3;
+$dark-green: #477701;
+
 $light-blue: #74AFB8;
+$blue: #33C3F0;
+$dark-blue: #1EAEDB;
+
 $red: #A62121;
+$dark-red: #791919;
 
 /* -------------------- */
 
-$source-sans-pro: "Source Sans Pro", sans-serif;
-$caluna-regular: "callunaregular", serif;
-$caluna-semibold: "callunasemibold", serif;
+$font1: "Source Sans Pro", sans-serif;
+$font2: "Roboto Condensed", sans-serif;
 
-$header-font: $source-sans-pro;
-$body-font: $caluna-regular;
-$form-font: $source-sans-pro;
-
-$dark-green: #477701;
-$dark-red: #791919;
+$body-font: $font1;
+$form-font: $font2;
+$header-font: $font1;
 
 $link: $dark-blue;
 $link-hover: $light-blue;
@@ -44,22 +40,6 @@ $notice-font-color: #444;
 $notice-border-color: #9dbc89;
 $notice-background-color: $white;
 
-.white {
-  color: $white;
-}
-
-.red {
-  color: $red;
-}
-
-.light-grey {
-  color: $light-grey;
-}
-
-.light-blue {
-  color: $light-blue;
-}
-
-.dark-blue {
-  color: $dark-blue;
-}
+$info-font-color: $dark-blue;
+$info-border-color: $blue;
+$info-background-color: $white;

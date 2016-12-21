@@ -13,24 +13,35 @@ that we don't need to discuss each choice that has been made in the past.
 * Run `bundle install`
 * Copy secrets.yml.example to secrets.yml.
 * Create a new secret_key_base, one for development and one for test with `rake secret` and put in the secrets.yml file.
+* Find and replace all instances of "greenfield" throughout the app
+* Update the git remotes
+  * `git remote -v` (should still point to greenfield)
+  * `git remote rm origin`
+  * `git remote add origin git@github.com:<new repo>`
+* Follow the database creation section below.
 * Configure Redis - TODO:
 * Configure Sidekiq - TODO:
 
 ## Replace this README with application specific information below.
 
-# Running Greenfield Locally
+# Greenfield
 
-## Ruby Version
+## Running Greenfield Locally
+
+### Ruby Version
+
 2.3.3
 
-## Rails Version
+### Rails Version
+
 5.0.0.1
 
-## System dependencies
+### System dependencies
+
 * Redis
 * Postgresql
 
-## Database creation
+### Database creation
 
 * Update database.yml.example with your credentials
 * Run `rake db:create db:migrate db:seed`
@@ -54,15 +65,15 @@ Note that sidekiq is required for this app to be functional, and therefore after
 
 On the server run `ps aux | grep sidekiq` and verify that the service is running.
 
-# Developer Norms/Standards
+## Developer Norms/Standards
 
 The purpose of this section is to layout the norms of this project.  Future development should follow the standard set forth in this guide.
 
-## Ruby
+### Ruby
 
 Rubocop is used on this project, which defines the Ruby styling agreed upon for this project.  The rules are bendable, but a best effort should be made to stay within the rubocop checks.  At the time of MVP, the Rubocop checks all passed.
 
-## JavaScript
+### JavaScript
 
 [Info on JavaScript testing/code standars and norms]
 

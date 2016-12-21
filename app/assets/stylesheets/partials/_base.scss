@@ -18,28 +18,31 @@ em {
 
 .flash-message {
   margin-top: 1em;
+  margin: 0 0 1em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
 }
 
 .alert {
+  padding: 1em;
   color: $error-font-color;
   border: 1px solid $error-border-color;
   background: $error-background-color;
-  margin: 0 0 1em;
-  padding: 1em;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 4px;
 }
 
 .notice {
+  padding: 1em;
   color: $notice-font-color;
   border: 1px solid $notice-border-color;
   background: $notice-background-color;
-  margin: 0 0 1em;
+}
+
+.info {
   padding: 1em;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 4px;
+  color: $info-font-color;
+  border: 1px solid $info-border-color;
+  background: $info-background-color;
 }
 
 .required:after {

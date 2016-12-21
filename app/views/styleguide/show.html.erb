@@ -1,0 +1,178 @@
+<h1>EAC Style Guide</h1>
+
+<!-- Standard Headings -->
+<h1>H1 Heading</h1>
+<h2>H2 Heading</h2>
+<h3>H3 Heading</h3>
+<h4>H4 Heading</h4>
+<h5>H5 Heading</h5>
+<h6>H6 Heading</h6>
+
+<!-- Base type size -->
+<p>The base type is 15px over 1.6 line height (24px)</p>
+
+<!-- Other styled text tags -->
+<strong>Bolded</strong>
+<em>Italicized</em>
+<strong><em>Bolded & Italicized</em></strong>
+<a>Link</a>
+<u>Underlined</u>
+
+<hr />
+
+<h2>Buttons</h2>
+
+<h3>Standard</h3>
+<div>
+  <a class="button" href="#">Anchor Button</a>
+  <button>Button Element</button>
+  <input type="submit" value="Submit Input">
+  <input type="button" value="Btn Input">
+  <input type="button" value="Disabled" disabled="disabled">
+</div>
+
+<h3>Secondary</h3>
+<div>
+  <a class="button button-secondary" href="#">Anchor Button</a>
+  <button class="button-secondary">Button Element</button>
+  <input class="button-secondary" type="submit" value="Submit Input">
+  <input class="button-secondary" type="button" value="Btn Input">
+  <input type="button" class="button-secondary" value="Disabled" disabled="disabled">
+</div>
+
+<hr />
+
+<h2>Forms</h2>
+
+<form>
+  <div class="row">
+    <div class="six columns">
+      <label for="exampleEmailInput" class="required">Your email</label>
+      <input class="u-full-width" type="email" placeholder="first.last@example.com" id="exampleEmailInput">
+    </div>
+    <div class="six columns">
+      <label for="exampleRecipientInput">Reason for contacting</label>
+      <select class="u-full-width" id="exampleRecipientInput">
+        <option value="Option 1">Questions</option>
+        <option value="Option 2">More information</option>
+        <option value="Option 3">Still more information, yet</option>
+      </select>
+    </div>
+  </div>
+  <label for="exampleMessage">Message</label>
+  <textarea class="u-full-width" placeholder="Hello!" id="exampleMessage"></textarea>
+  <label class="example-send-yourself-copy">
+    <input type="checkbox">
+    <span class="label-body">Send a copy to yourself</span>
+  </label>
+
+  <div class="actions">
+    <%= submit_tag "Submit" %>
+    <%= link_to "Cancel", "javascript:void(0);" %>
+  </div>
+</form>
+
+<hr />
+
+<h2>Lists</h2>
+
+<h3>Unorderd List</h3>
+<ul>
+  <li>Item 1</li>
+  <li>
+    Item 2
+    <ul>
+      <li>Item 2.1</li>
+      <li>Item 2.2</li>
+    </ul>
+  </li>
+  <li>Item 3</li>
+</ul>
+
+<h3>Unorderd List (without markers)</h3>
+<ul class="unmarked">
+  <li>Item 1</li>
+  <li>
+    Item 2
+    <ul class="unmarked">
+      <li>Item 2.1</li>
+      <li>Item 2.2</li>
+    </ul>
+  </li>
+  <li>Item 3</li>
+</ul>
+
+<h3>Orderd List (without markers)</h3>
+<ol>
+  <li>Item 1</li>
+  <li>
+    Item 2
+    <ul>
+      <li>Item 2.1</li>
+      <li>Item 2.2</li>
+    </ul>
+  </li>
+  <li>Item 3</li>
+</ol>
+
+<hr />
+
+<h2>Tables</h2>
+
+<table class="u-full-width">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Sex</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jane Doe</td>
+      <td>26</td>
+      <td>Female</td>
+      <td>Boulder</td>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>42</td>
+      <td>Male</td>
+      <td>Denver</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2>Components</h2>
+
+<p>TODO: site specific UI components</p>
+
+<h2>Messages</h2>
+<div class="flash-message">
+  <p class="notice">
+    <strong>Success!</strong> Lorem ipsum dolor sit amet.
+  </p>
+</div>
+
+<div class="flash-message">
+  <p class="alert">
+    <strong>There was a problem</strong> Optio, aspernatur, quia modi minima debitis tempora.
+  </p>
+</div>
+
+<div class="flash-message">
+  <p class="info">
+    <strong>Neutral Feedback.</strong> Optio, aspernatur, quia modi minima debitis tempora.
+  </p>
+</div>
+
+<h2>Icons</h2>
+
+<p>TODO: list out icons here, and remove.</p>
+
+<h2>Tooltip</h2>
+
+<p>TODO: create tooltip, or remove.</p>
